@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/components/main-body.css">
+    <link rel="stylesheet" href="./css/components/main-conteiner.css">
+    <link rel="stylesheet" href="./css/components/main-title.css">
+    <link rel="stylesheet" href="./css/components/main-linkedin.css">
+    <link rel="stylesheet" href="./css/components/main-section.css">
+    <link rel="stylesheet" href="./css/components/alura-logo.css">
+    <title>Imersão Dev - Aula 03</title>
+</head>
+
+<body class="main-body">
+    <div class="main-container">
+        <h1 class="main-title">
+            Mentalista
+        </h1>
+        <p class="subtitle">
+            Adivinhe o que a <em>Rochelle</em> está pensando!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo"
+            alt="">
+        <h3><a class="main-linkedin" href="https://www.linkedin.com/in/gisele-araujo-silva-21b420202/" target="_blank">
+            💻 &#60; Gi/&#62; 🎸
+        </a></h3> 
+        <div class="main-section">
+            <p class="subtitle -variable">Você tem 03 tentativas:</p>           
+            <select class="main-input" name="opcao" id="opcao">
+                <option value="01">Como vou saber se está vendendo drogas!</option>
+                <option value="02">Aí meu Deus,tá vou pegar o xarope!</option>
+                <option value="03">Eu vou te bater até você virar do avesso!</option>
+                <option value="04">Eu não preciso disso, meu marido tem três empregos!</option>
+            </select>
+
+            <button class="button" id="btn" type="submit" onclick="btn()"> Confirme</button> 
+            <p class="subtitle -variable" value="" id="retorno"></p>  
+        </div> 
+
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
