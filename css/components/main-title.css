@@ -1,0 +1,16 @@
+.main-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.subtitle {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.subtitle.-variable {
+    color: #fff;
+    padding-top: 10px;
+}
